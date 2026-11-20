@@ -1,0 +1,56 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#26372B"/>
+      <stop offset="100%" stop-color="#101713"/>
+    </linearGradient>
+
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D7FF83"/>
+      <stop offset="100%" stop-color="#91D83D"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
+  </defs>
+
+  <rect width="64" height="64" rx="18" fill="url(#bg)"/>
+
+  <rect x="15" y="12" width="34" height="42" rx="9"
+    fill="#B7F34A" opacity=".12"
+    transform="rotate(7 32 33)"/>
+
+  <rect x="12" y="10" width="38" height="44" rx="10"
+    fill="#1C2820" stroke="#526B46" stroke-width="1.2"/>
+
+  <path d="M21 10V8.5C21 7.1 22.1 6 23.5 6h15
+    C39.9 6 41 7.1 41 8.5V10"
+    fill="none" stroke="#B7F34A" stroke-width="2.5"
+    stroke-linecap="round"/>
+
+  <circle cx="25" cy="25" r="6.5" fill="url(#lime)"/>
+
+  <path d="M21.8 25l2.2 2.2 4.2-4.5"
+    fill="none" stroke="#18251B" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M35 23h8"
+    stroke="#DDF7B9" stroke-width="2.5"
+    stroke-linecap="round"/>
+
+  <circle cx="25" cy="39" r="4.5"
+    fill="none" stroke="#91B87A" stroke-width="2"/>
+
+  <path d="M35 38h8M35 42h5"
+    stroke="#91B87A" stroke-width="2"
+    stroke-linecap="round"/>
+
+  <path d="M20.5 39l1.5 1.5 2.5-3"
+    fill="none" stroke="#B7F34A" stroke-width="1.6"
+    stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M49 17l1.5 3.5L54 22l-3.5 1.5L49 27l-1.5-3.5L44 22l3.5-1.5z"
+    fill="#B7F34A"/>
+</svg>
